@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bb"
+    android:padding="20dp"
+    tools:context=".usersignup">
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:errorEnabled="true">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:fontFamily="serif"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:textStyle="normal"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:errorEnabled="true">
+
+        <EditText
+            android:id="@+id/uemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:fontFamily="serif"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:textStyle="normal"
+            android:inputType="textEmailAddress"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:errorEnabled="true">
+
+        <EditText
+            android:id="@+id/mobilenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:fontFamily="serif"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:maxLength="10"
+            android:textAllCaps="true"
+            android:textStyle="normal"
+            android:inputType="phone"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:errorEnabled="true">
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:fontFamily="serif"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:textStyle="normal"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:errorEnabled="true">
+
+        <EditText
+            android:id="@+id/conpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:fontFamily="serif"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:textStyle="normal"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/roundbutton"
+        android:text="Sign In"
+        android:textColor="#000000"
+        android:fontFamily="serif"
+        android:hint="Click here to go login page!!!"
+        android:id="@+id/signup">
+
+    </Button>
+
+
+
+
+
+
+
+
+</LinearLayout>

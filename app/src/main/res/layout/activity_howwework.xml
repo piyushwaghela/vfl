@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#84FFFF"
+
+    android:layout_height="match_parent"
+    tools:context=".howwework">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        app:fabSize="normal"
+        android:src="@drawable/extologin"
+        android:backgroundTint="#E43A3C3C"
+        android:elevation="6dp">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="197dp"
+        android:gravity="center"
+
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="this application provide you home services. \n
+you have to select worker type and give your location.
+we search according to you information and give you list of workers available
+to  your location . "
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="23sp"></TextView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="96dp"
+
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="112dp"
+        android:text="How We Work?"
+        android:textColor="#FFD600"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

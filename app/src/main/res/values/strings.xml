@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+
+    <string-array name="spinner_array">
+        <item>India(+91)</item>
+        <item>China(+22)</item>
+        <item>USA(+10)</item>
+
+    </string-array>
+
+
+    <string name="app_name">vocalforlocal</string>
+    <string name="invalid_Username">Enter Valid usename</string>
+    <string name="invalid_mobilenumber">Enter valid Mobilenumber</string>
+    <string name="invalid_Email">Enter valid Email</string>
+    <string name="invalid_Password">6 digite Password required</string>
+    <string name="invalid_ConfirmPassword">Password does not match!!!</string>
+    <string name="invalid_username">Enter Valid Username</string>
+
+    <string-array name="profession">
+        <item>Electrion</item>
+        <item>plumber</item>
+        <item>kamwali bai</item>
+        <item>babysitter</item>
+        <item>painter</item>
+        <item>cook</item>
+
+    </string-array>
+    <string name="title_activity_newlogsinscreen">newlogsinscreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="invalid_adharnumber">Enter 12 digite aAadhar card number</string>
+    <string name="invalid_profession">Profession field not be empty</string>
+    <string name="invalid_exp">Enter  Your experience</string>
+    <string name="invalid_location">Location Not be Empty</string>
+    <string name="invalid_adharnumbers">Enter Valid Aadhar Number</string>
+    <string name="invalid_description">You need to be enter your work description</string>
+    <string name="invalid_Mobilenumber">Invalid or Not match</string>
+    <string name="invalid_Otp">"OTP is Invalid. "</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

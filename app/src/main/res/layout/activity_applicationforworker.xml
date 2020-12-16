@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bb"
+    tools:context=".applicationforworker">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dp"
+          android:text="Upload Your own profile Photo..."
+          android:fontFamily="sans-serif-condensed"
+          android:textColor="#000000"
+          android:textSize="25sp">
+
+      </TextView>
+
+    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+        android:id="@+id/profile"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/pf"/>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name..."
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:maxLength="10"
+            android:inputType="phone"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/adharcard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Aadhar Number"
+            android:inputType="number"
+            android:maxLength="12"
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/profe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Profession/Your Exprties in Work"
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:inputType="text"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Local Area Location"
+                    android:textColor="#000000"
+                    android:inputType="text"
+                    android:fontFamily="serif"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/sd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Short description"
+            android:textColor="#000000"
+            android:maxLength="70"
+            android:inputType="textCapSentences|textMultiLine"
+            android:minHeight="90dp"
+            android:gravity="start"
+
+            android:fontFamily="serif"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg"
+        android:text="Submit"
+        android:background="@drawable/roundbutton"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+    </Button>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

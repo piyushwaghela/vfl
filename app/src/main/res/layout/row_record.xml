@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="1dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="3dp"
+    app:cardBackgroundColor="#71FFFF">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:id="@+id/profileIv"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/pf"
+            app:c_border="true"
+            app:c_border_width="1dp"
+
+            app:c_border_color="#D9D5E3"/>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_toEndOf="@id/profileIv"
+
+            android:layout_toRightOf="@id/profileIv"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Name"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/nametv"
+                android:textColor="#000000"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:soundEffectsEnabled="true"
+                android:textColorHighlight="#2979FF"
+                android:text="Mobile Number"
+                android:id="@+id/mobiletv"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:text="Profession"
+                android:id="@+id/profetv"
+                android:textColor="#000000"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Short Dec"
+                android:id="@+id/sdtv"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:fontFamily="serif"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Location"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/locationtv"
+                android:textColor="#000000"
+                android:fontFamily="serif"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

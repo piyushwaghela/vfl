@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".selectworker">
+
+
+
+
+
+    <TextView
+        android:id="@+id/stv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:background="@android:drawable/editbox_background"
+        android:drawableRight="@drawable/spinner1"
+        android:gravity="center_vertical"
+        android:hint="choose category"
+        android:padding="12dp" />
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="161dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Enter Your Location...">
+
+    </SearchView>
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginStart="155dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginBottom="244dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="monospace"
+        android:text="GO"
+        android:textSize="20sp">
+
+    </Button>
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Users">
+    <menu>
+        <item android:title="How We Work"
+            android:id="@+id/work"
+            android:icon="@drawable/work"/>
+
+        <item android:title="Check Your Work profile"
+            android:id="@+id/cprofile"
+            android:icon="@drawable/person"/>
+
+        <item android:title="About Us"
+            android:id="@+id/aboutus"
+            android:icon="@drawable/info"/>
+
+    </menu>
+
+</item>
+
+    <item android:title="Application">
+
+        <menu>
+            <item android:title="Share"
+                android:id="@+id/share"
+                android:icon="@drawable/share"/>
+
+        </menu>
+
+    </item>
+
+</menu>

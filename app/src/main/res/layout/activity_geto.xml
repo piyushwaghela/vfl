@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context=".geto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/toolbat_layout"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verification Code"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Code will Fetch Automatically that sent\n to your Mobile Number"
+            android:textColor="#FAF4F4"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <EditText
+                android:id="@+id/geto"
+                android:layout_width="183dp"
+                android:layout_height="34dp"
+                android:background="#20000000"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:fontFamily="serif"
+                android:inputType="number"
+               android:layout_gravity="center"
+                android:maxLength="6" />
+            <ImageButton
+                android:id="@+id/getdata"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="100dp"
+                android:background="#3F51B5"
+                android:src="@drawable/aage"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
